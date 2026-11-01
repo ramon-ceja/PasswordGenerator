@@ -14,7 +14,7 @@ const documentationPath = locale === 'es' ? '/es/documentation' : '/documentatio
 		<ul>
 			<li><a href={`${homePath}#generator`} aria-current={!isDocumentation ? 'page' : undefined}>{t('top.nav.generator')}</a></li>
 			<li><a href={documentationPath} aria-current={isDocumentation ? 'page' : undefined}>{t('top.nav.documentation')}</a></li>
-			<li><a href="https://github.com/Endier-Ray/PasswordGenerator" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+			<li><a href="https://github.com/ramon-ceja/PasswordGenerator" target="_blank" rel="noopener noreferrer">GitHub</a></li>
 			<li><button class="language-toggle" type="button" data-language-switch data-target-locale={locale === 'es' ? 'en' : 'es'} aria-label={t('language.switch')} title={t('language.switch')}>{locale === 'es' ? 'EN' : 'ES'}</button></li>
 		</ul>
 	</nav>
